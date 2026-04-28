@@ -1,0 +1,47 @@
+# 这里可指定你需自定义放行
+# 为 Classical 类型 Text 格式
+# ask 白名单
+DOMAIN,ask.asubaka.top
+# DOMAIN-SUFFIX,711.lol
+# ask ultra
+DOMAIN,ultra.asubaka.top
+# STAR
+DOMAIN-SUFFIX,staryuki.me
+# 飞牛
+DOMAIN-SUFFIX,czhhh.top
+# kk日报
+DOMAIN-SUFFIX,kkrb.net
+# AI国内中转
+DOMAIN-SUFFIX,chatanywhere.tech
+# paolu
+DOMAIN,600941.paoluma.de
+# 游骑兵
+# DOMAIN,emby.heisi.org
+# 星云
+# DOMAIN,emby.nebula-media.org
+# 微信
+DOMAIN,dns.weixin.qq.com
+DOMAIN,dns.weixin.qq.com.cn
+# youno
+DOMAIN,plusjp1.younoyes.com 
+DOMAIN,plusjp2.younoeyes.com
+DOMAIN,plusde1.younoyes.com 
+DOMAIN,plusus2.younoyes.com
+DOMAIN,plusus3.younoyes.com
+DOMAIN,plushk1.younoyes.com
+DOMAIN,plushk2.younoyes.com
+DOMAIN,plus.younoyes.com
+# 起点站
+DOMAIN,free2.28.al
+# UHD
+DOMAIN,smart.uhdnow.com
+DOMAIN,smart2.uhdnow.com
+DOMAIN,mlc.once.im
+# 69云
+DOMAIN-KEYWORD,69yun69
+
+DOMAIN,zl.1944820.xyz
+# server酱
+DOMAIN,bot.ftqq.com
+# 渝客行
+DOMAIN-KEYWORD,cqyukexing
