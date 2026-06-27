@@ -5,8 +5,6 @@ DOMAIN,ask.asubaka.top
 # DOMAIN-SUFFIX,711.lol
 # ask ultra
 DOMAIN,ultra.asubaka.top
-# STAR
-DOMAIN-SUFFIX,staryuki.me
 # 飞牛
 DOMAIN-SUFFIX,czhhh.top
 # kk日报
@@ -15,11 +13,6 @@ DOMAIN-SUFFIX,kkrb.net
 DOMAIN-SUFFIX,chatanywhere.tech
 # paolu
 DOMAIN,600941.paoluma.de
-# 游骑兵
-# DOMAIN,emby.heisi.org
-# 星云
-# DOMAIN,emby.nebula-media.org
-# 微信
 DOMAIN,dns.weixin.qq.com
 DOMAIN,dns.weixin.qq.com.cn
 # youno
@@ -31,17 +24,37 @@ DOMAIN,plusus3.younoyes.com
 DOMAIN,plushk1.younoyes.com
 DOMAIN,plushk2.younoyes.com
 DOMAIN,plus.younoyes.com
-# 起点站
-DOMAIN,free2.28.al
 # UHD
 DOMAIN,smart.uhdnow.com
 DOMAIN,smart2.uhdnow.com
 DOMAIN,mlc.once.im
+DOMAIN,www.uhdnow.com
+DOMAIN,speed.uhdnow.com
+DOMAIN-SUFFIX,uhdnow.online
+DOMAIN,mlc.once.im
 # 69云
 DOMAIN-KEYWORD,69yun69
-
-DOMAIN,zl.1944820.xyz
+# 反代
+DOMAIN-SUFFIX,1944820.xyz
 # server酱
 DOMAIN,bot.ftqq.com
 # 渝客行
 DOMAIN-KEYWORD,cqyukexing
+# 回声
+# DOMAIN,super.echoflix.de
+# DOMAIN,super.echoflix.vip
+# DOMAIN,music.echoflix.de
+# 网易云插件签名校验
+# DOMAIN,hk.131479.xyz
+
+# DOMAIN,bb.emby.edu.kg
+# DOMAIN,bbipv6.emby.edu.kg
+
+# 鸢尾
+DOMAIN,iris.niceduck.lol
+# DOMAIN,byteiris.iris520.vip
+# DOMAIN,byte2.iris520.vip
+# DOMAIN,cf.iris520.vip
+# 狗剩
+DOMAIN,www.eoos.top
+# DOMAIN,emby.eoos.lol
