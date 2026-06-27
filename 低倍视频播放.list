@@ -2,16 +2,12 @@
 # DOMAIN,plus.younoyes.com
 # ask
 DOMAIN-SUFFIX,711.lol
-# CTRL
-DOMAIN-SUFFIX,123456789.lol
 # ZoxFree
 DOMAIN,zoxfree.3767483.xyz
 # misty
 DOMAIN-SUFFIX,misty.cx
 # Ash
 # DOMAIN-SUFFIX,ash.yt
-# paolu
-DOMAIN,cctv.paoluma.de
 # 星云
 DOMAIN,emby.nebula-media.org
 DOMAIN,emby-cdn1.nebula-media.org
@@ -30,22 +26,36 @@ DOMAIN,v1.uhdnow.com
 DOMAIN,global.uhdnow.com
 DOMAIN,cfbest.uhdgo.com
 DOMAIN,v1-vod1.uhdnow.com
+DOMAIN,v1-vod2.uhdnow.com
 # 游骑兵
 DOMAIN,emby.heisi.org
-DOMAIN,emby.tropics.de5.net
-DOMAIN,cfbest.uhdgo.com
+DOMAIN,emby666.alien666.de5.net
 # 电报视频
 # DOMAIN-SUFFIX,globals-download.com
 # youtube
 DOMAIN-SUFFIX,googlevideo.com
-# jav
-# DOMAIN-KEYWORD,jav
 # 不知道
 DOMAIN-KEYWORD,loicloud
 # HG
-DOMAIN,emby.dnscf.dpdns.org
-DOMAIN,test.28.al
+DOMAIN,hgemby.qzz.io
+DOMAIN-SUFFIX,111660.xyz
+DOMAIN,hgemby.帝acg.xyz
+DOMAIN-SUFFIX,111848.xyz
+# NOX
+DOMAIN,test.inemby.us.ci
+# 回声（临时
+# DOMAIN,super.echoflix.de
+# DOMAIN,super.echoflix.vip
 
-# DOMAIN-SUFFIX,1944820.xyz
-# 西瓜测试
-DOMAIN,play.chilledmelon.com
+DOMAIN,bb.emby.edu.kg
+DOMAIN,bbipv6.emby.edu.kg
+# 鸢尾
+DOMAIN,iris4837.iris520.vip
+DOMAIN,cf.iris520.vip
+# DOMAIN,iris.niceduck.lol
+DOMAIN,byteiris.iris520.vip
+DOMAIN,byte2.iris520.vip
+DOMAIN,cf.iris520.vip
+# 狗剩
+# DOMAIN,www.eoos.top
+DOMAIN,emby.eoos.lol
