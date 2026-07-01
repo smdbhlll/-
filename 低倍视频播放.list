@@ -47,8 +47,7 @@ DOMAIN,test.inemby.us.ci
 # DOMAIN,super.echoflix.de
 # DOMAIN,super.echoflix.vip
 
-DOMAIN,bb.emby.edu.kg
-DOMAIN,bbipv6.emby.edu.kg
+DOMAIN-SUFFIX,ash.yt
 # 鸢尾
 DOMAIN,iris4837.iris520.vip
 DOMAIN,cf.iris520.vip
