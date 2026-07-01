@@ -53,11 +53,11 @@ DOMAIN-SUFFIX,ash.yt
 # 鸢尾
 DOMAIN,iris4837.iris520.vip
 DOMAIN,cf.iris520.vip
-# DOMAIN,iris.niceduck.lol
+DOMAIN,iris.niceduck.lol
 DOMAIN,byteiris.iris520.vip
 DOMAIN,byte2.iris520.vip
 DOMAIN,cf.iris520.vip
 # 狗剩
 # DOMAIN,www.eoos.top
-DOMAIN,emby.eoos.lol
-DOMAIN,1.eoos.lol
+DOMAIN-SUFFIX,eoos.lol
+DOMAIN-SUFFIX,mm880.xyz
