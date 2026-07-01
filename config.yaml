@@ -1,8 +1,8 @@
 # —————————
 # 基础设置
 mixed-port: 7890
-redir-port: 7891
-tproxy-port: 1536
+redir-port: 9797
+tproxy-port: 9898
 ipv6: true
 mode: Rule
 allow-lan: true
@@ -82,7 +82,7 @@ proxy-providers:
     <<: *p
     override: { additional-prefix: "赔钱：" }
     path: ./proxies/3.赔钱.yaml
-    url: "https://dash.pqjc.site/api/v1/pq/10073f284c1df07e2de1f017ed2c895d"
+    url: "https://dash.xn--cp3a08l.com/api/v1/pq/10073f284c1df07e2de1f017ed2c895d"
     
   4.闪电猫:
     <<: *p
@@ -499,8 +499,9 @@ rule-anchor:
 
 rule-providers:
   自定义规则: 
-    <<: *Local
+    <<: *Classical
     path: ./etc/自定义规则.list
+    url: "https://raw.githubusercontent.com/smdbhlll/-/refs/heads/main/自定义规则.list"
 
   WebRTC_端/域:
     <<: *Classical
@@ -517,8 +518,9 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/cn.mrs"
 
   低倍视频播放:
-    <<: *Local
+    <<: *Classical
     path: ./etc/低倍视频播放.list
+    url: "https://raw.githubusercontent.com/smdbhlll/-/refs/heads/main/低倍视频播放.list"
 
   DouYin_域:
     <<: *Domain
@@ -535,8 +537,9 @@ rule-providers:
     url: "https://cdn.jsdelivr.net/gh/GitMetaio/rule@master/rule/Clash/BiliBili/BiliBili_OCD_IP.mrs"
     
   PikPak:
-    <<: *Local
+    <<: *Classical
     path: ./rules/PikPak.list
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/PikPak/PikPak.list"
 
   Steam_域:
     <<: *Domain
