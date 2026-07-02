@@ -137,9 +137,9 @@ dns:
   enhanced-mode: redir-host #fake-ip
   fake-ip-range: 172.20.0.1/16
   fake-ip-filter:
-    - "RULE-SET:CN_域"
-    - "RULE-SET:Private_域"
-    - "RULE-SET:GoogleFCM_域"
+    - "rule-set:CN_域"
+    - "rule-set:Private_域"
+    - "rule-set:GoogleFCM_域"
     - "+.3gppnetwork.org"
     - "+.xtracloud.net"
     - "+.mtalk.google.com"
@@ -154,7 +154,7 @@ dns:
     - https://1.12.12.12/dns-query
   
   nameserver-policy:
-    "RULE-SET:CN_域,Microsoft_域,Apple_域":
+    "rule-set:CN_域,Microsoft_域,Apple_域":
       - https://223.5.5.5/dns-query
       - https://1.12.12.12/dns-query
   
@@ -221,7 +221,7 @@ proxy-groups:
     proxies:
       - 低倍率
       - 低倍率（均衡发展）
-      - 🇸🇬反代用
+      - 新加坡（大流量
       - 总模式
       - ⛔️ 禁止·拒绝连接
       - 🌐 本机·本地直连
@@ -231,13 +231,17 @@ proxy-groups:
     <<: *proxy_groups
 
   - name: BiliBili
-    icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/BiliBili.svg"
     type: select
     proxies:
       - 🌐 本机·本地直连
-      - 哔哩哔哩港澳台
       - ALL·中国台湾
       - ALL·香港地区
+    filter: "^(?!(?:.*(?:× 3|2x|5x)))(?=.*(?:香港|港|澳门|台湾|台|湾)).*$"
+    use:
+      - 1.69云
+      - 2.Ash
+      - 3.赔钱
+      - 4.闪电猫
 
   - name: Steam
     icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/Steam.svg"
@@ -382,7 +386,7 @@ proxy-groups:
     icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/Return.svg"
     hidden: true
     type: url-test
-    filter: ^(?!(.*× 3|.*2x|.*5x)).*$
+    filter: '^(?!.*(?:×\s*[2-9]|[2-9]\s*[xX]|[2-9]\s*倍|高倍)).*$'
     <<: *A
 
   - name: ALL·负载均衡
@@ -454,9 +458,6 @@ proxy-groups:
     type: url-test
     interval: 900
     use:
-      - 1.69云
-      - 2.Ash
-      - 3.赔钱
       - 4.闪电猫
   
   - name: JavDB
@@ -512,9 +513,7 @@ proxy-groups:
     use:
       - 4.闪电猫
 
-  
-
-  - name: 🇸🇬反代用
+  - name: 新加坡（大流量
     icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/Singapore.svg"
     filter: "^(?=.*(新加坡|坡|狮城|SG|Singapore)).*$"
     type: url-test
@@ -522,12 +521,6 @@ proxy-groups:
     interval: 900
     use:
       - 4.闪电猫
-
-  - name: 哔哩哔哩港澳台
-    icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/BiliBili.svg"
-    filter: "^(?!(?:.*(?:× 3|2x|5x)))(?=.*(?:香港|港|澳门|台湾|台|湾)).*$"
-    type: url-test
-    <<: *All
 
 # —————————
 
@@ -757,6 +750,8 @@ rules:
   - RULE-SET,YouTube_IP,YouTube,no-resolve
   
   - DOMAIN-KEYWORD,mtalk.google,GoogleFCM
+  - RULE-SET,GoogleFCM_域,GoogleFCM
+  - RULE-SET,GoogleFCM_IP,GoogleFCM,no-resolve
   - RULE-SET,Google_域,Google
   - RULE-SET,Google_IP,Google,no-resolve
   - RULE-SET,Netflix_域,Netflix
