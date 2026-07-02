@@ -231,6 +231,7 @@ proxy-groups:
     <<: *proxy_groups
 
   - name: BiliBili
+    icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/BiliBili.svg"
     type: select
     proxies:
       - 🌐 本机·本地直连
