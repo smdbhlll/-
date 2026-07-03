@@ -45,7 +45,7 @@ DOMAIN-KEYWORD,cqyukexing
 # DOMAIN,super.echoflix.vip
 # DOMAIN,music.echoflix.de
 # 网易云插件签名校验
-# DOMAIN,hk.131479.xyz
+DOMAIN,hk.131479.xyz
 
 # DOMAIN,bb.emby.edu.kg
 # DOMAIN,bbipv6.emby.edu.kg
@@ -58,4 +58,4 @@ DOMAIN-KEYWORD,cqyukexing
 # 狗剩
 DOMAIN,www.eoos.top
 # DOMAIN,emby.eoos.lol
-IP-CIDR,45.207.222.57/32,no-resolve
+# IP-CIDR,45.207.222.57/32,no-resolve
