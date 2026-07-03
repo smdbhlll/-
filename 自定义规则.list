@@ -58,4 +58,4 @@ DOMAIN,hk.131479.xyz
 # 狗剩
 DOMAIN,www.eoos.top
 # DOMAIN,emby.eoos.lol
-# IP-CIDR,45.207.222.57/32,no-resolve
+IP-CIDR,45.207.222.57/32,no-resolve
