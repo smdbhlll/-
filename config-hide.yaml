@@ -205,6 +205,7 @@ proxy-groups:
       - ALL·香港地区  
       - ALL·美国地区
       - ALL·狮城地区
+      - ALL·印度地区
       - ALL·其它地区
       - 🌐 本机·本地直连
 
@@ -264,7 +265,20 @@ proxy-groups:
   - name: Microsoft
     icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/Microsoft.svg"
     <<: *proxy_groups
-
+    
+  - name: Cloudflare
+    icon: "https://cdn.jsdelivr.net/gh/smdbhlll/czhhh-Image-hosting@main/cloudflare.png"
+    type: select
+    proxies:
+      - 总模式
+      - ALL·日本地区
+      - ALL·中国台湾
+      - ALL·香港地区  
+      - ALL·美国地区
+      - ALL·狮城地区
+      - ALL·印度地区
+      - ALL·其它地区
+      - 🌐 本机·本地直连
   - name: Telegram
     icon: "https://cdn.jsdelivr.net/gh/GitMetaio/Surfing@rm/Home/icon/Telegram.svg"
     type: select
@@ -748,7 +762,7 @@ rules:
   - RULE-SET,低倍视频播放,低倍视频播放
   - RULE-SET,PikPak,PikPak
   - RULE-SET,Cloudflarecn,🌐 本机·本地直连
-  - RULE-SET,Cloudflare,ALL·美国地区
+  - RULE-SET,Cloudflare,Cloudflare
   - RULE-SET,DouYin_域,抖音
   - RULE-SET,BiliBili_域,BiliBili
   - RULE-SET,BiliBili_IP,BiliBili,no-resolve
