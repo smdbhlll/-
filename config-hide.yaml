@@ -644,6 +644,15 @@ rule-providers:
     <<: *Domain
     path: ./rules/Microsoft.mrs
     url: "https://cdn.jsdelivr.net/gh/GitMetaio/rule@master/rule/Clash/Microsoft/Microsoft_OCD_Domain.mrs"
+    
+  Cloudflarecn:
+    <<: *Classical
+    path: ./rules/Cloudflarecn.list
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Cloudflarecn/Cloudflarecn.list"
+  Cloudflare:
+    <<: *Classical
+    path: ./rules/Cloudflare.list
+    url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Cloudflare/Cloudflare.list"
 
   Apple_域:
     <<: *Domain
@@ -738,6 +747,8 @@ rules:
   # 媒体与特殊应用规则分流
   - RULE-SET,低倍视频播放,低倍视频播放
   - RULE-SET,PikPak,PikPak
+  - RULE-SET,Cloudflarecn,🌐 本机·本地直连
+  - RULE-SET,Cloudflare,ALL·美国地区
   - RULE-SET,DouYin_域,抖音
   - RULE-SET,BiliBili_域,BiliBili
   - RULE-SET,BiliBili_IP,BiliBili,no-resolve
