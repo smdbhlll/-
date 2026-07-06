@@ -11,6 +11,8 @@ DOMAIN-SUFFIX,czhhh.top
 DOMAIN-SUFFIX,kkrb.net
 # AI国内中转
 DOMAIN-SUFFIX,chatanywhere.tech
+# 硅基流动
+DOMAIN,api.siliconflow.cn
 # paolu
 DOMAIN,600941.paoluma.de
 DOMAIN,dns.weixin.qq.com
