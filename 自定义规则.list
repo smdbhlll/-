@@ -61,3 +61,5 @@ DOMAIN,hk.131479.xyz
 DOMAIN,www.eoos.top
 # DOMAIN,emby.eoos.lol
 IP-CIDR,45.207.222.57/32,no-resolve
+# 沉浸式翻译
+DOMAIN-SUFFIX,immersivetranslate.net
