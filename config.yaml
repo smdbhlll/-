@@ -689,9 +689,7 @@ rules:
 
   # 指定域名直连或分流
   - DOMAIN-SUFFIX,ash.yt,🇸🇬反代用
-  - DOMAIN,super.echoflix.de,ALL·香港地区
-  - DOMAIN,super.echoflix.vip,ALL·香港地区
-  - DOMAIN,music.echoflix.de,ALL·香港地区
+  - DOMAIN-KEYWORD,echoflix,ALL·香港地区
   - DOMAIN-KEYWORD,javdb,JavDB
   - DOMAIN-KEYWORD,javmenu,JavDB
   - DOMAIN-KEYWORD,javrocket,JavDB
