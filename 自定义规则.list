@@ -63,3 +63,5 @@ DOMAIN,www.eoos.top
 IP-CIDR,45.207.222.57/32,no-resolve
 # 沉浸式翻译
 DOMAIN-SUFFIX,immersivetranslate.net
+# 硅基流动
+DOMAIN,api.siliconflow.cn
