@@ -7,6 +7,9 @@ DOMAIN,ask.asubaka.top
 DOMAIN,ultra.asubaka.top
 # 飞牛
 DOMAIN-SUFFIX,czhhh.top
+#NAT服务器管理面板
+DOMAIN,vm.wll.asia
+DOMAIN,idc.wlulu.com
 # kk日报
 DOMAIN-SUFFIX,kkrb.net
 # AI国内中转
@@ -65,5 +68,3 @@ DOMAIN,www.eoos.top
 IP-CIDR,45.207.222.57/32,no-resolve
 # 沉浸式翻译
 DOMAIN-SUFFIX,immersivetranslate.net
-# 硅基流动
-DOMAIN,api.siliconflow.cn
