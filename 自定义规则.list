@@ -56,7 +56,8 @@ DOMAIN,hk.131479.xyz
 
 # DOMAIN,bb.emby.edu.kg
 # DOMAIN,bbipv6.emby.edu.kg
-
+# 龙猫
+DOMAIN-SUFFIX,longcat.chat
 # 鸢尾
 # DOMAIN,iris.niceduck.lol
 # DOMAIN,byteiris.iris520.vip
