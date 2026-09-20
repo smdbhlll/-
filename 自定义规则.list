@@ -53,7 +53,6 @@ DOMAIN,super.asizon.cn
 # DOMAIN,music.echoflix.de
 # 网易云插件签名校验
 DOMAIN,hk.131479.xyz
-
 # DOMAIN,bb.emby.edu.kg
 # DOMAIN,bbipv6.emby.edu.kg
 # 龙猫
@@ -69,3 +68,5 @@ DOMAIN,www.eoos.top
 IP-CIDR,45.207.222.57/32,no-resolve
 # 沉浸式翻译
 DOMAIN-SUFFIX,immersivetranslate.net
+# 中转站
+DOMAIN-SUFFIX,pipio.io
