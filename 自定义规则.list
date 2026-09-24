@@ -16,19 +16,6 @@ DOMAIN-SUFFIX,kkrb.net
 DOMAIN-SUFFIX,chatanywhere.tech
 # 硅基流动
 DOMAIN,api.siliconflow.cn
-# paolu
-DOMAIN,600941.paoluma.de
-DOMAIN,dns.weixin.qq.com
-DOMAIN,dns.weixin.qq.com.cn
-# youno
-DOMAIN,plusjp1.younoyes.com 
-DOMAIN,plusjp2.younoeyes.com
-DOMAIN,plusde1.younoyes.com 
-DOMAIN,plusus2.younoyes.com
-DOMAIN,plusus3.younoyes.com
-DOMAIN,plushk1.younoyes.com
-DOMAIN,plushk2.younoyes.com
-DOMAIN,plus.younoyes.com
 # UHD
 DOMAIN,smart.uhdnow.com
 DOMAIN,smart2.uhdnow.com
@@ -53,15 +40,8 @@ DOMAIN,super.asizon.cn
 # DOMAIN,music.echoflix.de
 # 网易云插件签名校验
 DOMAIN,hk.131479.xyz
-# DOMAIN,bb.emby.edu.kg
-# DOMAIN,bbipv6.emby.edu.kg
 # 龙猫
 DOMAIN-SUFFIX,longcat.chat
-# 鸢尾
-# DOMAIN,iris.niceduck.lol
-# DOMAIN,byteiris.iris520.vip
-# DOMAIN,byte2.iris520.vip
-# DOMAIN,cf.iris520.vip
 # 狗剩
 DOMAIN,www.eoos.top
 # DOMAIN,emby.eoos.lol
