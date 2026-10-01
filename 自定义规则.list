@@ -50,3 +50,5 @@ IP-CIDR,45.207.222.57/32,no-resolve
 DOMAIN-SUFFIX,immersivetranslate.net
 # 中转站
 DOMAIN-SUFFIX,pipio.io
+# nat服务器
+DOMAIN,idc.wlulu.com
