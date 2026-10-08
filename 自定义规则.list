@@ -49,7 +49,7 @@ IP-CIDR,45.207.222.57/32,no-resolve
 # 沉浸式翻译
 DOMAIN-SUFFIX,immersivetranslate.net
 # 中转站
-DOMAIN-SUFFIX,pipio.io
+DOMAIN-KEYWORD,pipio
 # nat服务器
 DOMAIN,idc.wlulu.com
 IP-CIDR,186.244.245.212/32
