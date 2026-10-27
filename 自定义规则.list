@@ -49,7 +49,9 @@ IP-CIDR,45.207.222.57/32,no-resolve
 # 沉浸式翻译
 DOMAIN-SUFFIX,immersivetranslate.net
 # 中转站
-DOMAIN-KEYWORD,pipio
+DOMAIN-SUFFIX,pipio.io
+# 癫115
+DOMAIN,m.dian115.com
 # nat服务器
 DOMAIN,idc.wlulu.com
 IP-CIDR,186.244.245.212/32
