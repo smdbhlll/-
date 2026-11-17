@@ -1,7 +1,0 @@
-{
-  "version": 1,
-  "entry_package": "sources_by_bili",
-  "download_url": "http://192.168.1.10:8000/sources_by_bili.jar",
-  "update_msg": "哔哩哔哩（仅音频）：合集/系列/UP主订阅",
-  "support_url": ""
-}
