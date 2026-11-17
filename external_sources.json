@@ -1,0 +1,7 @@
+{
+    "version": 20261117,
+    "entry_package": "sources_by_bili",
+    "download_url": "https://YOUR_HOST/bilibili_source/sources_by_bili.jar",
+    "update_msg": "哔哩哔哩（仅音频）：直达 DASH 音频流，支持合集/系列/UP主订阅",
+    "support_url": ""
+}
