@@ -1,7 +1,8 @@
 {
-    "version": 20261118,
-    "entry_package": "sources_by_bili",
-    "download_url": "https://raw.githubusercontent.com/smdbhlll/-/refs/heads/main/sources_by_bili.jar",
-    "update_msg": "修复无法播放：默认改用兼容 mp4（手机 UA 可播），源设置可切回仅音频 m4s",
+    "version": 20261120,
+    "entry_package": "sources_by_douyin",
+    "download_url": "https://YOUR_HOST/douyin_source/sources_by_douyin.jar",
+    "update_msg": "抖音音频首版：作品链接生成章节；拒绝 playwm 占位地址，抓取真实 CDN 音轨/完整 mp4，支持多链接书单和网页登录",
     "support_url": ""
 }
+
