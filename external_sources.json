@@ -1,7 +1,7 @@
 {
   "version": 20261123,
   "entry_package": "sources_by_bili",
-  "download_url": "https://YOUR_HOST/bilibili_source/sources_by_bili.jar",
+  "download_url": "https://raw.githubusercontent.com/smdbhlll/-/refs/heads/main/sources_by_bili.jar",
   "update_msg": "仅音频播放当前集后由书源后台预取下一集（默认 1 集，可设 0/1/2），不再依赖 App 预缓存倒计时；保留 512MB LRU",
   "support_url": ""
 }
